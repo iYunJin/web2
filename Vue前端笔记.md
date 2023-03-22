@@ -25,3 +25,9 @@
   1. Table 表格
   2. Pagination 分页
   3. Dialog 对话框
+
+4. Vue路由：URL中的hash(#)与组件之间的对应关系
+  * 组成
+    1. VueRouter:路由器类，根据路由请求在路由视图中动态渲染选中的组件
+    2. \<router-link>:请求链接组件，浏览器<a>
+    3. \<router-view>:动态视图组件，用来渲染展示与路由路径对应的组件
